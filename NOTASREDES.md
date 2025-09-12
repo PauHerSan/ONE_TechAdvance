@@ -10,6 +10,8 @@ Es un sistema de seguridad que protege tu red de accesos no autorizados. Puede b
 
 #**Dirección IP**
 
+comando: *ipconfig*
+
 Es como la dirección de una casa en Internet. Permite que los dispositivos se encuentren y se comuniquen entre sí. Hay dos versiones principales: IPv4 e IPv6.
 
 #**ICMP (INTERNET CONTROL MESSAGE PROTOCOL)**
@@ -17,6 +19,8 @@ Es como la dirección de una casa en Internet. Permite que los dispositivos se e
 Es un protocolo que se utiliza para enviar mensajes de control y de error entre dispositivos en una red. El comando *ping* utiliza ICMP para verificar la conectividad.
 
 #**PING**
+
+comando: *ping www.amazon.com.mx*
 
 Es un comando que se utiliza para verificar si un dispositivo está accesible en una red. Envía paquetes ICMP a una dirección IP y espera una respuesta.
 
@@ -27,3 +31,10 @@ Es como una guía telefónica de Internet. Traduce los nombres de dominio (como 
 #**TTL (Time To Live)**
 
 Es un valor que indica el tiempo máximo que un paquete puede vivir en una red. Evita que los paquetes se queden dando vueltas indefinidamente en caso de un problema de enrutamiento.
+
+#**Traceroute**
+
+comando: *tracert -d www.amazon.com.mx* 
+//la página puede variar.
+
+Este comando te permite rastrear la ruta que toman los paquetes de datos desde tu computadora hasta un servidor de destino en Internet. Es útil para diagnosticar problemas de conexión y entender la estructura de la red.
